@@ -8,9 +8,10 @@ div{
 canvas{
   background: transparent;
 }
+
 canvas.minutes{
-  position:  relative;
-  left: -50%;
+  position: relative;
+  left: -50.19%;
   border: 1px solid black;
   border-radius: 50%;
 }
@@ -24,7 +25,7 @@ p{
   font-family: "helvetica";
   text-transform: uppercase;
 }
-button{
+.home-button{
   position: absolute;
   font-size: 1.5em;
   display: inline-block;
@@ -33,4 +34,24 @@ button{
   top: 441px;
   font-family: "helvetica";
   text-transform: uppercase;
+}
+form{
+  border: 1px dashed black;
+  font-size: 6em;
+  margin: auto 0;
+  font-family: "helvetica";
+  margin-top: 20%;
+  text-transform: uppercase;
+}
+form input{
+  font-size: 1em;
+  margin-left: 15%;
+}
+form button{
+  font-size: 1em;
+  margin-left: 39%;
+}
+form * {
+  display: block;
+  text-align: center !important;
 }

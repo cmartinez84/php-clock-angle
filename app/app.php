@@ -18,7 +18,8 @@
  $app->post("/results", function() use ($app){
    $newClock = new Clock;
    $result = $newClock->getDegrees($_POST['hour'], $_POST['minute']);
-   return $app['twig']->render('results.html.twig', array('result'=>$result));
+   $newClock->getDisplayDegrees($_POST['hour'], $_POST['minute']);
+   return $app['twig']->render('results.html.twig', array('result'=>$result, 'newClock' => $newClock));
  });
 
  return $app;

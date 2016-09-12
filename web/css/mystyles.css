@@ -1,0 +1,36 @@
+div{
+  background: transparent;
+  position: fixed;
+  left: 20%;
+  top:20%;
+  border: 1px solid black;
+}
+canvas{
+  background: transparent;
+}
+canvas.minutes{
+  position:  relative;
+  left: -50%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+p{
+  position: absolute;
+  font-size: 3em;
+  display: inline-block;
+  max-width: 100px;
+  right: 180px;
+  top: -25px;
+  font-family: "helvetica";
+  text-transform: uppercase;
+}
+button{
+  position: absolute;
+  font-size: 1.5em;
+  display: inline-block;
+  max-width: 100px;
+  right: 180px;
+  top: 441px;
+  font-family: "helvetica";
+  text-transform: uppercase;
+}

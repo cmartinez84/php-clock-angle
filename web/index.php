@@ -10,10 +10,9 @@
      <title></title>
    </head>
    <body>
-     <!-- <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet">
-     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-     <link rel="stylesheet" href="/css/bootstrap-theme.min.css" type="text/css"> -->
      <link rel="stylesheet" href="/css/mystyles.css" type="text/css">
+     <script src="js/jquery-3.1.0.js" type="text/javascript"></script>
+     <script src="js/myscripts.js" type="text/javascript"></script>
+
    </body>
  </html>
- 

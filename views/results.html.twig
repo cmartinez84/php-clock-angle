@@ -10,23 +10,11 @@
     <div class="clock">
       <canvas  class="hours" id="hours" width="500" height="500" ></canvas>
       <canvas  class="minutes"  id="minutes" width="500" height="500" ></canvas>
+      <canvas  class="seconds"  id="seconds" width="500" height="500" ></canvas>
       <p>The angle between the hands is {{result}}&deg;</p>
       <a href='/'><button class="home-button" type='button'>HOME</button></a>
     </div>
 
-
-    <script>
-      var c = document.getElementById("hours");
-      var ctx = c.getContext("2d");
-      ctx.moveTo(250,250);
-      ctx.lineTo(250,080);
-      ctx.stroke();
-      var c = document.getElementById("minutes");
-      var ctx = c.getContext("2d");
-      ctx.moveTo(250,250);
-      ctx.lineTo(250,00);
-      ctx.stroke();
-    </script>
     <style media="screen">
 
     canvas.hours{
@@ -39,15 +27,6 @@
       -webkit-transform: rotate({{newClock.minutesDegrees}}deg);
       transform: rotate({{newClock.minutesDegrees}}deg);}
 
-
     </style>
-    <!-- <script>
-    var myVar = setInterval(myTimer, 1000);
-
-    function myTimer() {
-    document.getElementById("hours").css({ transform: "rotate("+myVar + "deg)"});
-  }
-    </script> -->
-
   </body>
 </html>
